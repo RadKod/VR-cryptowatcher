@@ -41,16 +41,7 @@ module.exports = {
    */
   styleResources: {
     scss: [
-      // Plugins
-      '~/assets/style/scss/plugins/_browserhack.scss', // Doc: https://github.com/selimdoyranli/browser-hack-sass-mixins
-      '~/assets/style/scss/plugins/_breakpoint.scss',
-      '~/assets/style/scss/plugins/_mq.scss', // Doc: https://github.com/sass-mq/sass-mq
-      // Functions
-      '~/assets/style/scss/functions/_center.scss',
-      '~/assets/style/scss/functions/_triangle.scss',
-      // Mixins
-      '~/assets/style/scss/mixins/_font.scss',
-      '~/assets/style/scss/mixins/_gradient.scss'
+      // Nothing
     ]
   },
 
