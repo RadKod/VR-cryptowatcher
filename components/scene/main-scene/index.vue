@@ -1,7 +1,7 @@
 <template lang="pug">
 a-scene.main-scene(loading-screen="dotsColor: #eee; backgroundColor: #012353")
   // Assets
-  a-assets(timeout="3000")
+  a-assets(timeout="150000")
     a-asset-item#room(src="3d/room/scene.gltf")
     a-asset-item#tv(src="3d/tv/scene.gltf")
   // Room
@@ -176,9 +176,6 @@ export default {
     })
   },
   async mounted() {
-    document.querySelector('a-assets').addEventListener('timeout', () => {
-      window.alert('Poor connection. Please try again.')
-    })
     await this.connect()
     setTimeout(() => {
       this.$fetch()
