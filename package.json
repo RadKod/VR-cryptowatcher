@@ -43,10 +43,12 @@
     ]
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
     "aframe": "^1.2.0",
     "cross-env": "^5.2.0",
     "express": "^4.17.1",
-    "nuxt": "2.15.2"
+    "nuxt": "2.15.2",
+    "nuxt-change-case": "^1.0.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-module": "^3.0.0",

@@ -5,6 +5,10 @@ module.exports = {
    */
   target: 'static',
 
+  env: {
+    BINANCE_API: 'https://api.binance.com/api/v3'
+  },
+
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -62,7 +66,11 @@ module.exports = {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [
+    // App
+    { src: '@/plugins/app/app-axios.js' },
+    { src: '@/plugins/app/api-register.js' }
+  ],
 
   /*
    ** Auto import components
@@ -93,7 +101,12 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    // Doc: https://axios.nuxtjs.org
+    '@nuxtjs/axios',
+    // Doc: https://github.com/RadKod/nuxt-change-case
+    'nuxt-change-case'
+  ],
 
   /*
    ** Build configuration
