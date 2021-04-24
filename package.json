@@ -1,7 +1,7 @@
 {
   "name": "VR-cryptowatcher",
   "version": "1.0.0",
-  "description": "WebVR cryptocurrency app. (A-Frame + Binance API, WebSocket)",
+  "description": "WebVR cryptocurrency app. (A-Frame + Binance API + Nuxt + WebSocket)",
   "private": false,
   "keywords": [
     "cryptocurrency",
