@@ -1,50 +1,36 @@
-# rk-nuxt-atomic-design-starter
 
-> Atomic Design starter kit for front-end development with Nuxt.js.
+# VR-cryptowatcher
 
-<br>
+> 🥽 Cryptocurrency app on WebVR
 
-![Built with nuxt js](https://user-images.githubusercontent.com/22690563/72204887-c64a1b80-348d-11ea-9dee-f0760fe70fad.png) Nuxt.js.
+Built with [A-Frame](https://aframe.io) + [Binance API](https://github.com/binance/binance-spot-api-docs) + [Nuxt](https://nuxtjs.org) + WebSocket
 
-&nbsp;
 
-##### POWERED BY
+![VR-cryptowatcher](https://user-images.githubusercontent.com/22690563/115970647-77be7480-a54c-11eb-8b7b-44db8ed693df.gif)
 
-[![N|Solid](https://i.ibb.co/q5G6N0n/radkod-mail-imza.png)](https://www.radkod.com)
+✨ **Online Demo**
 
-#### rk-nuxt-atomic-design-starter Used By RadKod Freelance Team.
+[https://vr-cryptowatcher.vercel.app](https://vr-cryptowatcher.vercel.app)
 
-- ##### Pug
-- ##### Sass (scss)
-  - ##### Sass-mq
-  - ##### Breakpoints for sass-mq and global
-  - ##### Browserhack
-  - ##### Bootstrap 4 like responsive utils (display, spacing, flex)
-- ##### Nuxt auto import components (https://github.com/nuxt/components)
-- ##### Nuxt Style Resources Module
-- ##### Sample Vuex Store (App Preloader)
-- ##### Eslint
-- ##### Prettier
-- ##### Stylelint
-- ##### Stylelint config rational order plugin
-- ##### Husky & Lint-Staged (linter runs pre-commits.)
+** Required fast connection
 
-&nbsp;
-
-## Installation
+Project structure: Based from [rk-nuxt-atomic-design-starter](https://github.com/RadKod/rk-nuxt-atomic-design-starter).
+ 
+ ## Installation
 
 Git clone.
 
-```bash
-$ git clone https://github.com/RadKod/rk-nuxt-atomic-design-starter.git
+```sh
+$ git clone https://github.com/RadKod/VR-cryptowatcher.git
 ```
-
 &nbsp;
 
 ## Build Setup
 
+You can use npm or yarn
+
 ```bash
-$ cd rk-nuxt-atomic-design-starter
+$ cd VR-cryptowatcher
 
 # install dependencies
 $ npm install
@@ -83,5 +69,17 @@ $ npm run lint:stylelint:fix
 $ npm run prettier
 
 ```
+## Author
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org) and [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/).
+👤 **selimdoyranli**
+
+* Website: [@selimdoyranli](https://selimdoyranli.com)
+* Github: [@selimdoyranli](https://github.com/selimdoyranli)
+* LinkedIn: [@selimdoyranli](https://linkedin.com/in/selimdoyranli)
+* Team: [@RadKod](https://radkod.com)
+
+___
+
+CREATED BY
+
+ [![RadKod](https://i.ibb.co/q5G6N0n/radkod-mail-imza.png)](https://www.radkod.com)
