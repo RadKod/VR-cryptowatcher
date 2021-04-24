@@ -30,7 +30,7 @@ module.exports = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js'
+        src: '/vendor/aframe/aframe-v1.2.0.js'
       }
     ]
   },
