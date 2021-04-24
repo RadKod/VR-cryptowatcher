@@ -5,8 +5,11 @@ a-scene.main-scene(loading-screen="dotsColor: #eee; backgroundColor: #012353")
     a-asset-item#room(src="3d/room/scene.gltf")
     a-asset-item#tv(src="3d/tv/scene.gltf")
     img#radkod-logo(src="3d/radkod-logo.svg")
+    img#sky(src="3d/sky.jpg")
+    img#terrain(src="3d/terrain.jpg")
   // Room
   a-entity(gltf-model="#room" modify-materials position="0 0 1.8" scale="1.5 1.5 1.5" rotation="0 140 0")
+  a-plane(src="#terrain" color="#666" position="-5 -1 5" rotation="-90 0 0" width="150" height="150")
   // TV
   a-entity(gltf-model="#tv" modify-materials position="-2.6 1.3 1.6" scale="0.1 0.1 0.1" rotation="0 110 0")
   a-plane(color="#111" position="-2.59 1.75 1.44" rotation="0 110 0" width="1" height="0.7")
@@ -155,7 +158,7 @@ a-scene.main-scene(loading-screen="dotsColor: #eee; backgroundColor: #012353")
     :text="`color: #454545; align: center; value: RadKod; width: 2;`"
   )
 
-  a-sky(color="#000")
+  a-sky(src="#sky")
 </template>
 
 <script>
