@@ -4,6 +4,7 @@ a-scene.main-scene(loading-screen="dotsColor: #eee; backgroundColor: #012353")
   a-assets(timeout="150000")
     a-asset-item#room(src="3d/room/scene.gltf")
     a-asset-item#tv(src="3d/tv/scene.gltf")
+    img#radkod-logo(src="3d/radkod-logo.svg")
   // Room
   a-entity(gltf-model="#room" modify-materials position="0 0 1.8" scale="1.5 1.5 1.5" rotation="0 140 0")
   // TV
@@ -142,6 +143,16 @@ a-scene.main-scene(loading-screen="dotsColor: #eee; backgroundColor: #012353")
     rotation="0 110 0"
     material="color: #eee"
     :text="`color: #f3ba2f; align: left; value: BINANCE; width: 0.4;`"
+  )
+
+  // RadKod Poster
+  a-plane(color="#fbfbfb" position="-3.44 2.4 0.20" rotation="0 50 0" width="0.8" height="0.85")
+  a-image(src="#radkod-logo" position="-3.43 2.4 0.20" rotation="0 50 0" width="0.5" height="0.5")
+  a-entity(
+    position="-3.43 1.9 0.20"
+    rotation="0 50 0"
+    material="color: #f2f2f2"
+    :text="`color: #454545; align: center; value: RadKod; width: 2;`"
   )
 
   a-sky(color="#000")
