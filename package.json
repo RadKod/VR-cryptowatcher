@@ -1,13 +1,13 @@
 {
-  "name": "rk-nuxt-atomic-design-starter",
+  "name": "VR-cryptowatcher",
   "version": "1.0.0",
-  "description": "Atomic Design starter kit for front-end development with Nuxt.js.",
+  "description": "WebVR cryptocurrency app. (A-Frame + Binance API, WebSocket)",
   "private": false,
   "keywords": [
-    "nuxt atomic design",
-    "nuxt.js atomic design",
-    "nuxt starter template",
-    "nuxt atomic design boilerplate"
+    "cryptocurrency",
+    "webvr",
+    "binance",
+    "radkod"
   ],
   "author": "selimdoyranli",
   "contributors": [
