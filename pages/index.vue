@@ -1,6 +1,6 @@
 <template lang="pug">
 .page.main-page
-  t-app-scene
+  main-scene
 </template>
 
 <script>
